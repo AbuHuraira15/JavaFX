@@ -12,8 +12,6 @@ import javafx.stage.Stage;              // Top-level JavaFX container (window)
 // Main class that extends Application class to create JavaFX application
 public class ABC extends Application {
 
-
-
     @Override
     public void start(Stage stage) throws Exception {
         Button b = new Button("Click!");  // Creates a new button with text "Click!"
