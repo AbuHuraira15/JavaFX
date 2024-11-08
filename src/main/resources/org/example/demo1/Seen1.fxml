@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo1.SeenControl">
+   <children>
+      <Button layoutX="223.0" layoutY="211.0" mnemonicParsing="false" onAction="#SwitchToSee2" text="go to seen 2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="242.0" layoutY="39.0" text="Seen text 1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
