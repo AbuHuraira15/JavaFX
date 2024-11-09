@@ -5,14 +5,12 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo1.ControlImage">
    <children>
       <Button fx:id="buttonImage" layoutX="251.0" layoutY="333.0" mnemonicParsing="false" onAction="#displayImage" prefHeight="35.0" prefWidth="98.0" text="Button" />
       <ImageView fx:id="MyImage" fitHeight="305.0" fitWidth="384.0" layoutX="132.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../spiderman.png" />
-            <Image url="@../../../imageSetForIcon.png" />
          </image>
       </ImageView>
    </children>

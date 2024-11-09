@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo1.CheckBoxController">
+   <children>
+      <CheckBox fx:id="checkbox" layoutX="219.0" layoutY="314.0" mnemonicParsing="false" onAction="#change" prefHeight="34.0" prefWidth="123.0" text="ON/OFF">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <Label fx:id="label" layoutX="201.0" layoutY="224.0" prefHeight="43.0" prefWidth="165.0" text="Spider Man">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="192.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img.png" />
+
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
